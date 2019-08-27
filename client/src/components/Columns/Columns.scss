@@ -1,0 +1,136 @@
+@import "../Assets/fonts.scss";
+@import "../Assets/mixin.scss";
+
+// SCREEN WIDTH ---------------------------------
+
+$phone-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+
+// COLOUR VARIABLES -----------------------------
+
+$black: #323232;
+$white: #ffffff;
+$alabaster: #fafafa;
+$lightsky: #0095ff;
+$darksky: #0065ad;
+$blue: #004892;
+$darkblue: #002f5f;
+
+// ----------------------------------------------
+
+.columns-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 160px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.columns {
+  display: flex;
+  width: 100%;
+  flex: 1 0 auto;
+  justify-content: center;
+
+  &__bedrooms {
+      display: flex;
+      justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  &__livingrooms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    // background-color: $alabaster;
+  }
+
+  &__diningrooms {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .column-title {
+    @include h4mobile;
+    font-size: 2rem;;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    color: $black;
+    justify-content: center;
+  }
+
+  .room-block {
+    display: flex;
+    width: 100%;
+
+    &__bed-image {
+      width: 100%;
+      padding: 5px;
+    }
+
+    &__living-image {
+      width: 100%;
+      padding: 5px;
+    }
+
+    &__dining-image {
+      width: 100%;
+      padding: 5px;
+    }
+  }
+}
+
+.v-divider {
+  height: 100%;
+  border: solid black 1px;
+  opacity: 0.1;
+}
+
+.dotdotdot {
+  width: 30%;
+  justify-content: center;
+  margin-right: 5px;
+}
+
+.more {
+  @include h4abig;
+  font-size: 1rem;
+  display: flex;
+  width: 110px;
+  height: 1.5rem;
+  padding-top: 0.3rem;
+  border-radius: 20px;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.932);
+  align-self: center;
+  align-items: baseline;
+  border: solid lightgray 2px;
+  margin-top: 1rem;
+  text-decoration: none;
+  color: $black;
+
+  &hover {
+    cursor: progress;
+  }
+}
+
+.backtotop {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.toplink {
+    text-decoration: none;
+    @include h4bbig;
+    color: $black;
+
+}

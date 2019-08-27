@@ -1,0 +1,54 @@
+@import "../Assets/fonts.scss";
+@import "../Assets/mixin.scss";
+
+// SCREEN WIDTH ---------------------------------
+
+$phone-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+
+// COLOUR VARIABLES -----------------------------
+
+$black: #323232;
+$white: #ffffff;
+$alabaster: #fafafa;
+$lightsky: #0095ff;
+$darksky: #0065ad;
+$blue: #004892;
+$darkblue: #002f5f;
+
+// ----------------------------------------------
+
+.column-title {
+    @include h4mobile;
+    font-size: 30px;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+    color: $black;
+    justify-content: center;
+  }
+
+.livingroom-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 160px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .livingrooms {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+  }
+
+  .room-block {
+    display: flex;
+    width: 33%;
+    margin-bottom: 0.45%;
+
+    & img {
+        width: 100%;
+    }
+}

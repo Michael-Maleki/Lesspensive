@@ -1,0 +1,51 @@
+@import "../Assets/fonts.scss";
+@import "../Assets/mixin.scss";
+
+// SCREEN WIDTH ---------------------------------
+
+$phone-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+
+// COLOUR VARIABLES -----------------------------
+
+$black: #323232;
+$white: #ffffff;
+$alabaster: #fafafa;
+$lightsky: #0095ff;
+$darksky: #0065ad;
+$blue: #004892;
+$darkblue: #002f5f;
+
+// ----------------------------------------------
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50vw;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+
+    &__items {
+        @include h2mobile;
+        text-decoration: none;
+        color: $black;
+        font-weight: 300;
+        font-size: 14px;
+        opacity: 0.8;
+        border-bottom: solid white 2px;
+
+        &:hover {
+            border-bottom: solid black 2px;
+        }
+        
+    }
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}

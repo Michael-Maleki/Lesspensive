@@ -1,0 +1,58 @@
+@import "../Assets/fonts.scss";
+@import "../Assets/mixin.scss";
+
+// SCREEN WIDTH ---------------------------------
+
+$phone-width: 320px;
+$tablet-width: 768px;
+$desktop-width: 1440px;
+
+// COLOUR VARIABLES -----------------------------
+
+$black: #323232;
+$white: #ffffff;
+$alabaster: #fafafa;
+$lightsky: #0095ff;
+$darksky: #0065ad;
+$blue: #004892;
+$darkblue: #002f5f;
+
+// ----------------------------------------------
+
+.home-box {
+    margin: 0 160px;
+}
+
+.hero {
+  display: flex;
+  overflow: hidden;
+  // height: 66vh;
+  width: 100%;
+  // background: url("../Assets/Images/Hero.jpg") no-repeat;
+  // background-position: bottom center;
+  margin-bottom: 4rem;
+  object-fit: contain;
+}
+
+.hero-img {
+  justify-content: center;
+  width: 100%;
+}
+
+.subhead {
+  display: flex;
+  align-self: flex-start;
+  @include h2big;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.copy {
+  display: flex;
+  align-self: flex-start;
+  flex-flow: row wrap;
+  @include h4abig;
+  font-size: 1.5rem;
+  margin-bottom: 5rem;
+  line-height: 1.4;
+}
