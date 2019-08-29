@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
-import './bedModal1.scss'
-import Plus from '../../Assets/Icons/SVG/Icon-add.svg'
+import './Diningroom2.scss'
+// import Plus from '../../Assets/Icons/SVG/Icon-add.svg'
 
 const customStyles = {
     content : {
@@ -15,7 +15,7 @@ const customStyles = {
     }
   };
 
-class BedModal1 extends React.Component {
+class Diningroom2 extends React.Component {
 
     constructor() {
         super();
@@ -53,7 +53,8 @@ class BedModal1 extends React.Component {
     render() {
         return (
           <div className='buttonPosition'>
-          <button className='modal-button' onClick={this.openModal}><img className='plus-box-img' src={Plus} alt='' /></button>
+          <button className='modal-button2' onClick={this.openModal}></button>   
+          {/* <img className='plus-box-img' src={Plus} alt='' /> */} 
           <Modal
             isOpen={this.state.modalIsOpen}
             onAfterOpen={this.afterOpenModal}
@@ -129,4 +130,4 @@ class BedModal1 extends React.Component {
     }
 }
 
-export default BedModal1;
+export default Diningroom2;

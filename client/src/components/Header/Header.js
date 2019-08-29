@@ -15,7 +15,7 @@ class Header extends React.Component {
           <Link className='nav__items' to='bedrooms'><div className='nav__items'>BEDROOMS</div></Link>
           <Link className='nav__items' to='living-rooms'><div className='nav__items'>LIVING ROOMS</div></Link>
           <Link className='nav__items' to='dining-rooms'><div className='nav__items'>DINING ROOMS</div></Link>
-          <div className='nav__items'>REQUEST</div>
+          <Link className='nav__items' to='request'><div className='nav__items'>REQUEST</div></Link>
         </div>
 
       </div>

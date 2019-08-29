@@ -24,14 +24,19 @@ $darkblue: #002f5f;
     height: 750px;
   }
 
-  .modal-button {
+  .modal-button3 {
     position: absolute;
-    right: 20%;
-    bottom: 20%;
-    height: 40px;
-    width: 40px;
+    right: 25%;
+    bottom: 45%;
+    height: 8%;
+    width: 8%;
     border-radius: 100%;
-    background-color: $darksky;
+    background-color: white;
+    opacity: 0.7;
+
+    &:hover {
+      background-color: $lightsky;
+    }
 
     & img {
       width: 50%;
