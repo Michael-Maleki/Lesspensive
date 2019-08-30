@@ -19,6 +19,30 @@ $darkblue: #002f5f;
 
 // ----------------------------------------------
 
+.hover-box {
+  display: flex;
+  width: 300px;
+}
+
+.picture {
+  width: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+
+  &__price {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  &__product {
+    font-size: 2rem;
+    font-weight: 800;
+  }
+}
+
 .ReactModal__Content {
     width: 50vw;
     height: 750px;
@@ -26,8 +50,30 @@ $darkblue: #002f5f;
 
   .modal-button1 {
     position: absolute;
-    right: 65%;
-    bottom: 80%;
+    right: 45%;
+    bottom: 35%;
+    height: 8%;
+    width: 8%;
+    border-radius: 100%;
+    background-color: white;
+    opacity: 0.7;
+
+    &:hover {
+      background-color: $lightsky;
+    }
+
+    & img {
+      width: 50%;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+
+  .modal-button2 {
+    position: absolute;
+    right: 75%;
+    bottom: 3%;
     height: 8%;
     width: 8%;
     border-radius: 100%;
