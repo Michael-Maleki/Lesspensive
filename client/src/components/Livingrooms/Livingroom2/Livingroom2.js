@@ -2,9 +2,6 @@ import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import './Livingroom2.scss';
 
-import ReactDOM from 'react-dom';
-import Modal from 'react-modal';
-
 class Livingroom2 extends React.Component {
 
     render() {

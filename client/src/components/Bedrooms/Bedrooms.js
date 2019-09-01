@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../Bedrooms/Bedrooms.scss';
 import Header from '../Header/Header';
 import Bedroom1 from './Bedroom1/Bedroom1';

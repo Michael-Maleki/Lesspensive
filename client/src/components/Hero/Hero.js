@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 
 import '../Hero/Hero.scss'
 import Gallery from '../Gallery/Gallery';
@@ -10,7 +9,7 @@ class Hero extends React.Component {
 		return (
 			<div className='home-box'>
 
-				<div className='hero'><img className='hero-img' src={hero}/></div>
+				<div className='hero'><img className='hero-img' src={hero} alt=''/></div>
 				
 				
 				<div className='subhead'>Lesspensive goes beyond showcasing beautiful rooms.</div>

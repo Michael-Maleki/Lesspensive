@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../Livingrooms/Livingrooms.scss';
 import Header from '../Header/Header';
 import Livingroom1 from './Livingroom1/Livingroom1';

@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import Modal from 'react-modal';
 import '../Diningrooms/Diningrooms.scss'
 import Diningroom1 from './Diningroom1/Diningroom1';
 import Diningroom2 from './Diningroom2/Diningroom2';

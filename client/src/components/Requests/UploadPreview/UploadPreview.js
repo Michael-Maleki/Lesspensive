@@ -36,15 +36,22 @@ onChange(e) {
 
 render() {
     return (
-        <form onSubmit={this.onFormSubmit}>
-            <h1>File Upload</h1>
-            <input type="file" name="myFile" onChange= {this.onChange} />
-            <button type="submit">Upload</button>
+        <form className='modal-form' onSubmit={this.onFormSubmit}>
+        <div className='modalbox'>
+            <h1 className='modalbox__title'> Lesspensive Room Request </h1>
+            <h3 className='modalbox__subhead'> Do you have a room you want us to source?</h3>
+            <p className='modalbox__copy'> Upload your desired homescapes and our dedicated team will find the right pieces to make your favourite rooms come to life!  </p> 
+        </div>
+
+        <div className='uploadbox'>
+            <input className='uploadbox__browse' type="file" name="myFile" onChange= {this.onChange} />
+            <button className='uploadbox__submit' type="submit" onClick={this.onClose}>UPLOAD</button>
+        </div>
+
         </form>
     )
 }
 }
-
 
 export default UploadPreview;
 

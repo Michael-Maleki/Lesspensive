@@ -2,23 +2,20 @@ import React from 'react';
 import ReactTooltip from 'react-tooltip';
 import './Bedroom3.scss';
 
-import ReactDOM from 'react-dom';
-import Modal from 'react-modal';
-
 class Bedroom3 extends React.Component {
 
   render() {
     return (
       <div>
-  <form action='https://www.amazon.ca/Thomasville-Bouvier-4-Piece-Comforter-Queen/dp/B00IK58MM0' target='_blank'>
+  <form action='https://www.wayfair.com/bed-bath/pdp/darby-home-co-tammara-4-piece-comforter-set-w000157951.html' target='_blank'>
     <ReactTooltip html={true} type='dark' effect="solid"/>
       <button className='bed3-button1' type='submit'  data-tip="
         <div class='hover-box' style='display:flex; width:27vw; height:10vw;'>
           <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://secure.img1-fg.wfcdn.com/im/77468997/resize-h800-w800%5Ecompr-r85/6605/66051424/Tammara+4+Piece+Comforter+Set.jpg' />
           <div style='display:flex; flex-direction:column; '>
-            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Thomasville Bouvier 4-Piece Comforter Set </div>
-            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $367.70 </div>
-            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> Decorate your master suite or guest room with Bouvier; a stylish and fashionable Toile bedding ensemble. An exclusive design by Thomasville, the Bouvier Comforter Set features scenes from a herders album that are sketched in Black on a Ivory ground cotton duck. The coordinating bed skirt is a melange of delicate leaves scattered on a textured ground.  </div>
+            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Tammara 4 Piece Comforter Set </div>
+            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $269.99 </div>
+            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> Decorate your master suite or guest room with Tammara; a stylish and fashionable Toile bedding ensemble. An exclusive design by Thomasville, the Bouvier Comforter Set features scenes from a herders album that are sketched in Black on a Ivory ground cotton duck. The coordinating bed skirt is a melange of delicate leaves scattered on a textured ground.  </div>
           </div>
         </div>
       "></button>   
