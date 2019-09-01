@@ -18,13 +18,10 @@ class Diningrooms extends React.Component {
                 <div className='diningroom-box'>
                     <div className='column-title'>Dining Rooms</div>
                     <div className='diningrooms'>
-                        <div className='room-block'><img src={din1} alt='' />
-                        <Diningroom1/>
-                        <Diningroom2/>
-                        <Diningroom3/>
-                        </div>
-                        <div className='room-block'><img src={din1} alt='' /></div>
-                        <div className='room-block'><img src={din1} alt='' /></div>
+                        
+                        <div className='room-block'><img src={din1} alt=''/> <Diningroom1 /> </div>
+                        <div className='room-block'><img src={din1} alt=''/> <Diningroom2 /> </div>
+                        <div className='room-block'><img src={din1} alt=''/> <Diningroom3 /> </div>
 
                     </div>
                 </div>

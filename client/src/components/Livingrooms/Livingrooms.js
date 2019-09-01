@@ -17,13 +17,9 @@ class Livingrooms extends React.Component {
                     <div className='column-title'>Living Rooms</div>
                     <div className='livingrooms'>
 
-                        <div className='room-block'><img src={lv1} alt='' />
-                        <Livingroom1 />
-                        <Livingroom2 />
-                        <Livingroom3 />
-                        </div>
-                        <div className='room-block'><img src={lv1} alt='' /></div>
-                        <div className='room-block'><img src={lv1} alt='' /></div>
+                        <div className='room-block'><img src={lv1} alt=''/> <Livingroom1 /> </div>
+                        <div className='room-block'><img src={lv1} alt=''/> <Livingroom2 /> </div>
+                        <div className='room-block'><img src={lv1} alt=''/> <Livingroom3 /> </div>
 
                     </div>
                 </div>

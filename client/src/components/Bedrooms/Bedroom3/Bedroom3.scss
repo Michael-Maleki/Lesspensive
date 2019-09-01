@@ -19,192 +19,47 @@ $darkblue: #002f5f;
 
 // ----------------------------------------------
 
-.ReactModal__Content {
-    width: 50vw;
-    height: 750px;
+.bed3-button1 {
+  position: absolute;
+  right: 32%;
+  bottom: 55%;
+  height: 8%;
+  width: 8%;
+  border-radius: 100%;
+  background-color: white;
+  opacity: 0.7;
+
+  &:hover {
+    background-color: $lightsky;
   }
+}
 
-  .modal-button3 {
-    position: absolute;
-    right: 25%;
-    bottom: 45%;
-    height: 8%;
-    width: 8%;
-    border-radius: 100%;
-    background-color: white;
-    opacity: 0.7;
+.bed3-button2 {
+  position: absolute;
+  right: 55%;
+  bottom: 5%;
+  height: 8%;
+  width: 8%;
+  border-radius: 100%;
+  background-color: white;
+  opacity: 0.7;
 
-    &:hover {
-      background-color: $lightsky;
-    }
-
-    & img {
-      width: 50%;
-      position: relative;
-      left: 50%;
-      transform: translateX(-50%);
-    }
+  &:hover {
+    background-color: $lightsky;
   }
+}
 
-  .modal-label {
-    @include h2big;
-    color: gray;
+.bed3-button3 {
+  position: absolute;
+  right: 80%;
+  bottom: 50%;
+  height: 8%;
+  width: 8%;
+  border-radius: 100%;
+  background-color: white;
+  opacity: 0.7;
+
+  &:hover {
+    background-color: $lightsky;
   }
-
-  .modal-stock-label {
-    @include h3big;
-    color: black;
-    margin-right: 100px;
-  }
-
-  .modal-input {
-    @include h3big;
-    width: 220px;
-    border: solid 1px lightgrey;
-    background-color: $alabaster;
-    border-radius: 4px;
-    height: 48px;
-    padding-left: 1rem;
-    font-size: 14px;
-  }
-
-  .modal-desc-input {
-    @include h3big;
-    width: 220px;
-    border: solid 1px lightgrey;
-    background-color: $alabaster;
-    border-radius: 4px;
-    height: 80px;
-    padding-left: 1rem;
-    font-size: 14px;
-    width: 100%;
-  }
-
-  .modal-buttons {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 40px;
-  }
-
-  .modal-save {
-    @include h2big;
-    color: white;
-    text-transform: uppercase;
-    border-radius: 4px;
-    // background: $primary-cta;
-    height: 4.8rem;
-    // background: $darksky;
-    width: 160px;
-    font-size: 16px;
-    margin-left: 48px;
-  }
-
-  .modal-cancel {
-    height: 48px;
-    color: $darksky;
-    font-weight: 900;
-    background-color: white;
-    font-size: 16px;
-  }
-
-  .modal {
-    display: flex;
-    flex-direction: column;
-    height: 624px;
-    width: 576px;
-    padding: 36px 28px 20px 28px;
-
-    &__title {
-      @include h1bbig;
-      font-weight: 200px;
-      color: #323232;
-      margin-bottom: 48px;
-    }
-
-    &__row1 {
-      display: flex;
-      flex-direction: row;
-      // flex: 1 0 auto;
-      // flex-wrap: wrap;
-      margin-bottom: 24px;
-      justify-content: space-between;
-      width: 100%;
-
-      &__product {
-        display: flex;
-        flex-direction: column;
-        // width: 220px;
-        // margin-right: 40px;
-      }
-
-      &__last-ordered {
-        display: flex;
-        flex-direction: column;
-        // width: 220px;
-        // margin-right: 40px;
-      }
-    }
-
-    &__row2 {
-      display: flex;
-      flex-direction: row;
-      // flex: 1 0 auto;
-      // flex-wrap: wrap;
-      margin-bottom: 24px;
-      justify-content: space-between;
-      width: 100%;
-
-      &__city {
-        display: flex;
-        flex-direction: column;
-        // width: 220px;
-        // margin-right: 40px;
-      }
-
-      &__country {
-        display: flex;
-        flex-direction: column;
-        // width: 220px;
-        // margin-right: 40px;
-      }
-    }
-
-    &__row3 {
-      display: flex;
-      flex-direction: row;
-      // flex: 1 0 auto;
-      // flex-wrap: wrap;
-      margin-bottom: 24px;
-      justify-content: space-between;
-      width: 100%;
-
-      &__quantity {
-        display: flex;
-        flex-direction: column;
-        // width: 220px;
-        // margin-right: 40px;
-      }
-
-      &__switch {
-        display: flex;
-        flex-direction: column;
-        // width: 220px;
-        // margin-right: 40px;
-      }
-
-      &__switch-stock {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
-        align-items: center;
-        height: 48px;
-        width: 220px;
-      }
-    }
-
-    &__row4 {
-      display: flex;
-      flex-direction: column;
-      widows: 100%;
-    }
-  }
+}

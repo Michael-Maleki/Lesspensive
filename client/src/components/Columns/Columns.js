@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom'
 import '../Columns/Columns.scss'
 import hero from '../Assets/Images/Hero.jpg';
-import bed1 from '../Assets/Images/bedrooms/bedroom1.jpg';
+import bed1 from '../Assets/Images/bedrooms/bedroom-1.jpg';
 import lv1 from '../Assets/Images/livingrooms/livingroom1.jpg';
 import din1 from '../Assets/Images/diningrooms/diningroom1.jpg';
 import dots from '../Assets/Icons/SVG/more.svg';
