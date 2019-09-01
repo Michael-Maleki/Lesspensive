@@ -27,7 +27,7 @@ onFormSubmit(e){
         .then((response) => {
             console.log("The file is successfully uploaded");
         }).catch((error) => {
-    });
+    });    
 }
 
 onChange(e) {

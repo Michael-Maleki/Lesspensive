@@ -67,7 +67,7 @@ class HeaderModal extends React.Component {
             style={customStyles}
             contentLabel="Room Request"
           >
-
+              
         <UploadPreview />
 
           </Modal>

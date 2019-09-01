@@ -7,43 +7,43 @@ class Livingroom2 extends React.Component {
     render() {
         return (
           <div>
-  <form action='https://www.overstock.com/Home-Garden/Knightsbridge-Brown-Bonded-Leather-Tufted-Scroll-Arm-Chesterfield-Sofa-by-iNSPIRE-Q-Artisan/9497906/product.html?recset=b51d491b-89b0-4def-a3dd-7ae446954f72&refccid=EHTHKGWMHNSLRDCJ5UG2SZKNV4&searchidx=0&recalg=63&recidx=0&kwds=leather%20chesterfield%20sofa&rfmt=' target='_blank'>
+  <form action='https://www.overstock.com/Home-Garden/Furniture-of-America-Allier-Romantic-Tufted-Wingback-Loveseat-Bench/9924380/product.html?recset=a0d7834d-d9a3-41c7-a5a8-4142e091a6f9&refccid=35INR4KOLVTL4L2ELXICF22P64&recalg=872,873,839&recidx=2' target='_blank'>
     <ReactTooltip html={true} type='dark' effect="solid"/>
       <button className='liv2-button1' type='submit'  data-tip="
         <div class='hover-box' style='display:flex; width:27vw; height:10vw;'>
-          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://ak1.ostkcdn.com/images/products/9497906/Knightsbridge-Brown-Bonded-Leather-Tufted-Scroll-Arm-Chesterfield-Sofa-by-iNSPIRE-Q-Artisan-023d20e6-e235-4c70-b2e3-450be889924c.jpg' />
+          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://ak1.ostkcdn.com/images/products/9924380/Allier-Transitional-Romantic-Tufted-Wingback-Loveseat-Bench-by-FOA-d51c7051-fe2e-47bf-a46d-6930c95c49ec.jpg' />
           <div style='display:flex; flex-direction:column; '>
-            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Knightsbridge Brown Bonded Leather Tufted Scroll Arm Chesterfield Sofa </div>
-            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $2070.44 </div>
-            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> This stylish Knightsbridge brown bonded leather sofa from iNSPIRE Q® Artisan is perfect for kicking back and enjoying a good book. This grand sofa reflects a classic aesthetic that adds a distinct dose of sophistication to a spacious living room.  </div>
+            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Allier Transitional Romantic Tufted Wingback Loveseat Bench </div>
+            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $1027.39 </div>
+            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> The Allier Wingback Bench is elegantly designed. Featuring soft linen-like upholstery and comfy foam cushioned seats, the bench provides a comfortable rest with cozy accent pillows to complement. Its well-stated wingback design and rolled arms are distinguished by lustrous nailhead trim while sturdy curved legs provide a solid and lasting foundation.   </div>
           </div>
         </div>
       "></button>   
   </form>
 
-  <form action='https://www.wayfair.com/rugs/pdp/mercury-row-duhon-custom-shag-ivorygray-area-rug-w001826262.html' target='_blank'>
+  <form action='https://www.overstock.com/Home-Garden/Safavieh-Prairie-Natural-Pelt-Sheepskin-Wool-White-Shag-Rug-2-x-3/20602775/product.html' target='_blank'>
     <ReactTooltip html={true} type='dark' effect="solid"/>
       <button className='liv2-button2' type='submit'  data-tip="
         <div class='hover-box' style='display:flex; width:27vw; height:10vw;'>
-          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://secure.img1-fg.wfcdn.com/im/34000903/resize-h505-w505%5Ecompr-r85/9039/90391309/Duhon+Custom+Shag+Ivory/Gray+Area+Rug.jpg' />
+          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://ak1.ostkcdn.com/images/products/20602775/Safavieh-Handmade-Natural-Sheepskin-Leanca-Shag-Solid-Rug-fa5dd240-e008-4ee4-8a46-9849bf42f7a6.jpg' />
           <div style='display:flex; flex-direction:column; '>
-            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Duhon Custom Shag Ivory/Gray Area Rug </div>
-            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $34.99 </div>
-            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> Ready to stand up to high foot traffic in the entryway or take on occasional spills under the kitchen table, polypropylene rugs are ideal anchors for any mess-prone area of your abode. This rug is power-loomed from that must-have material and features a shag pile height for a soft touch underfoot. This piece stands out thanks to a diamond pattern.  </div>
+            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Safavieh Handmade Natural Sheepskin Leanca Shag Solid Rug </div>
+            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $76.43 </div>
+            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> Perennially chic, natural sheepskin rugs by Safavieh are much more than deliciously soft underfoot. They lend an ambiance of warmth to any room with a look that is light, airy and neutral in color. Sheepskins are naturally rich in lanolin, which adds luster and shine to this chic and easy to decorate rug.  </div>
           </div>
         </div>
       "></button>   
   </form>
 
-  <form action='https://www.wayfair.ca/furniture/pdp/ebern-designs-deford-coffee-table-c001321989.html?piid=1573891737' target='_blank'>
+  <form action='https://www.wayfair.ca/decor-pillows/pdp/brayden-studio-decorative-accent-metal-sconce-brys2502.html' target='_blank'>
     <ReactTooltip html={true} type='dark' effect="solid"/>
       <button className='liv2-button3' type='submit'  data-tip="
         <div class='hover-box' style='display:flex; width:27vw; height:10vw;'>
-          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://secure.img1-fg.wfcdn.com/im/53308066/resize-h505-w505%5Ecompr-r85/7244/72444280/Deford+Coffee+Table.jpg' />
+          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://secure.img1-fg.wfcdn.com/im/26645481/resize-h505-w505%5Ecompr-r85/3169/31692139/Decorative+Accent+Metal+Sconce.jpg' />
           <div style='display:flex; flex-direction:column; '>
-            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Deford Coffee Table </div>
-            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $205.99 </div>
-            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> Is seating ensemble feeling empty? Try a coffee table! Not only do they anchor your space, but they offer room to stage a display and serve up trays of treats when you find yourself entertaining. This one, for example, has a simple round shape, tempered glass top, and four straight legs, creating clean lines that can blend smoothly with the modern and contemporary aesthetic.  </div>
+            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Decorative Accent Metal Sconce </div>
+            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $75.99 </div>
+            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> Bring it back to life with style and shine from this eye-catching accent sconce. Crafted from metal, its frame features a 16' ' circular silhouette with an openwork design finished in a gleaming golden tone for a glam-meets-mod look. In the centre is a cylindrical glass shade, perfect for perching a candle (real or faux) inside to cast a warm and relaxing glow in your entryway or master suite. </div>
           </div>
         </div>
       "></button>   
