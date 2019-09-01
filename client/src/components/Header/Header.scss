@@ -40,13 +40,14 @@ $darkblue: #002f5f;
             border-bottom: solid black 2px;
             cursor: pointer;
         }
-        
     }
 }
 
 .logo {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin:0 auto;
+    width: 75%;
+    margin-top: 1rem;
     margin-bottom: 1rem;
 }

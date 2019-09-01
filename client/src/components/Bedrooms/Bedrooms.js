@@ -1,6 +1,7 @@
 import React from 'react';
 import '../Bedrooms/Bedrooms.scss';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import Bedroom1 from './Bedroom1/Bedroom1';
 import Bedroom2 from './Bedroom2/Bedroom2';
 import Bedroom3 from './Bedroom3/Bedroom3';
@@ -23,6 +24,7 @@ class Bedrooms extends React.Component {
 
                     </div>
                 </div>
+                <Footer />
             </div>
         );
     }

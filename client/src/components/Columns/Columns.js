@@ -15,7 +15,7 @@ class Columns extends React.Component {
 
 					<div className='columns__bedrooms'>
 						<div className='column-title'>Bedrooms</div>
-						<div className='room-block'><img className='room-block__bed-image' src={bed1} alt=''/></div>
+						<Link className='room-block' to='bedrooms'><div className='room-block'><img className='room-block__bed-image' src={bed1} alt=''/></div></Link>
 						<Link className='more' to='bedrooms'><img className='dotdotdot' src={dots} alt=''/>More</Link>
 					</div>
 
@@ -23,7 +23,7 @@ class Columns extends React.Component {
 
 					<div className='columns__livingrooms'>
 						<div className='column-title'>Living Rooms</div>
-						<div className='room-block'><img className='room-block__living-image' src={lv1} alt=''/></div>
+						<Link className='room-block' to='living-rooms'><div className='room-block'><img className='room-block__living-image' src={lv1} alt=''/></div></Link>
 						<Link className='more' to='living-rooms'><img className='dotdotdot' src={dots} alt=''/>More</Link>
 						
 					</div>
@@ -32,7 +32,7 @@ class Columns extends React.Component {
 
 					<div className='columns__diningrooms'>
 						<div className='column-title'>Dining Rooms</div>
-						<div className='room-block'><img className='room-block__dining-image' src={din1} alt=''/></div>
+						<Link className='room-block' to='dining-rooms'><div className='room-block'><img className='room-block__dining-image' src={din1} alt=''/></div></Link>
 						<Link className='more' to='dining-rooms'><img className='dotdotdot' src={dots} alt=''/>More</Link>
 					</div>
 					
