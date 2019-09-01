@@ -7,43 +7,43 @@ class Diningroom2 extends React.Component {
     render() {
         return (
         <div>
-  <form action='https://www.overstock.com/Home-Garden/Simple-Living-Scholar-Vintage-Industrial-Dining-Table-Grey/14227299/product.html?recalg=872,873,839&recidx=3&recset=069cecf3-5698-4559-9ffe-ddd4e04a6abc&refccid=HFC6YB5IP5I2KNCK5QZQXPFDE4' target='_blank'>
+  <form action='https://www.allmodern.com/furniture/pdp/olly-server-th4582.html?ds=74786' target='_blank'>
     <ReactTooltip html={true} type='dark' effect="solid"/>
       <button className='din2-button1' type='submit'  data-tip="
         <div class='hover-box' style='display:flex; width:27vw; height:10vw;'>
-          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://ak1.ostkcdn.com/images/products/14227299/Simple-Living-Scholar-Vintage-Industrial-Dining-Table-1bd8ed1a-eb86-4dc6-a53b-c315c1724d44_600.jpg' />
+          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://secure.img1-fg.wfcdn.com/im/35474735/resize-h800-w800%5Ecompr-r85/3462/34624324/Olly+Server.jpg' />
           <div style='display:flex; flex-direction:column; '>
-            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Simple Living Scholar Vintage Industrial Dining Table  </div>
-            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $281.43 </div>
-            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> This industrial-style dining table adds personality to your dining room or kitchen eating area. Designed to mimic the rustic look of reclaimed wood, the Scholar Dining Table by Simple Living features a weathered greyish top. The industrial style base complements in a charcoal grey finish accented with nail head detail. </div>
+            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Olly Server  </div>
+            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $299.99 </div>
+            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> The middle of the storage cabinet/sideboard, with its closed spaces, refers to the aesthetic of the age. The specialized storage spaces, designed specifically for wine and liquor bottles, along with the handy drawer (ideal for accessories) mean everything you need to entertain your friends in style is right there at your fingertips. Because it’s so versatile, you can just remove the diagonal shelves, and presto!... you’ve got a storage unit for your entryway or living room. </div>
           </div>
         </div>
       "></button>   
   </form>
 
-  <form action='https://www.overstock.com/Home-Garden/Leonid-Afremov-Late-Stroll-2-Giclee-Print-Canvas-Wall-Art/11486660/product.html' target='_blank'>
+  <form action='https://www.wayfair.ca/rugs/pdp/mack-milo-cecilvale-abstract-diamond-area-rug-c000998760.html?piid=25521839' target='_blank'>
     <ReactTooltip html={true} type='dark' effect="solid"/>
       <button className='din2-button2' type='submit'  data-tip="
         <div class='hover-box' style='display:flex; width:27vw; height:10vw;'>
-          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://ak1.ostkcdn.com/images/products/11486660/Leonid-Afremov-Late-Stroll-2-Giclee-Print-Canvas-Wall-Art-73153409-f93e-4eae-aa90-e2275ee3321d.jpg' />
+          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://secure.img1-fg.wfcdn.com/im/1967646/resize-h505-w505%5Ecompr-r85/6150/61508241/Cecilvale+Abstract+Diamond+Area+Rug.jpg' />
           <div style='display:flex; flex-direction:column; '>
-            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Leonid Afremov 'Late Stroll 2' Giclee Print Canvas Wall Art  </div>
-            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $147.66 </div>
-            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> This Giclee Fine Art is printed onto artist-grade Canvas using 12-color archival ink. Professionally hand-stretched and wrapped around sustainable bars. Gallery wrapped in the museum style, with artwork mirrored around the edge. Artwork has been reprinted from the Artists' original work with written permission. 100-percent made in north America and arrives ready to hang.  </div>
+            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'>Cecilvale Abstract Diamond Area Rug </div>
+            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD 174.59 </div>
+            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> Patterned with an elegant modern design, a durable machine-woven polyester microfiber rug that offers wide-ranging support. Featuring a stylish diamond design with a high-density low pile weave, this non-shedding area rug is the perfect addition to a living room, bedroom, entryway, kitchen, dining room or family room. </div>
           </div>
         </div>
       "></button>   
   </form>
 
-  <form action='https://www.amazon.ca/nuLOOM-200BHSG01A-8010-Handmade-Natural-Seagrass/dp/B00S6VMN3W/ref=sr_1_13?s=kitchen&ie=UTF8&qid=1519696940&sr=1-13&keywords=natural%2Brug&th=1' target='_blank'>
+  <form action='https://www.birchlane.com/kitchen-dining/pdp/aguiar-5-piece-dining-set-trnt4203.html' target='_blank'>
     <ReactTooltip html={true} type='dark' effect="solid"/>
       <button className='din2-button3' type='submit'  data-tip="
         <div class='hover-box' style='display:flex; width:27vw; height:10vw;'>
-          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://images-na.ssl-images-amazon.com/images/I/A1aMWWaZ-ZL._SL1500_.jpg' />
+          <img class='picture' style='margin-right:3%; margin-left:-2%; border-radius:3px; height:100%; width: 100%;' src='https://secure.img1-fg.wfcdn.com/im/83825164/resize-h505-w505%5Ecompr-r85/3696/36968465/Aguiar+5+Piece+Dining+Set.jpg' />
           <div style='display:flex; flex-direction:column; '>
-            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Handmade Natural Fiber Cotton Border Seagrass Beige Rug  </div>
-            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $196.00 </div>
-            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> Add warmth and a carefree seaside ambiance to your home with the organic beauty of this seagrass rug from Safavieh's Natural Fiber Collection. Bordered in cotton twill, this rug's clean, neutral pigments and elegant herringbone design allow for unlimited decorating versatility.  </div>
+            <div style='font-size:150%; font-weight: 600; line-height:1.3; margin-bottom: 3%;'> Aguiar 5 Piece Dining Set  </div>
+            <div style='font-size:130%; font-weight: 400; line-height:1; margin-bottom: 3%;'> CAD $287.00 </div>
+            <div style='font-size:90%; font-weight: 200; line-height:1.3; margin-bottom: 3%;'> By pairing elements from rustic and traditional styles, this five-piece dining set brings visual appeal and versatile flair to your well-appointed home. The table's curved, X-shaped trestle base brings breezy style to any space, while its wood grain details pair perfectly with the metal for on-trend mixed-media appeal. The set's four backless, contoured stools are perfect for seating guests at your next neighborhood potluck or weekend family dinner.   </div>
           </div>
         </div>
       "></button>   
