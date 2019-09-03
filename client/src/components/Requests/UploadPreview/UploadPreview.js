@@ -26,15 +26,23 @@ onFormSubmit(e){
     axios.post("http://localhost:1337/upload",formData,config)
         .then((response) => {
             console.log("The file is successfully uploaded");
+            this.props.close();
+            // window.setTimeout(()=>window.location = '/', 500)
         }).catch((error) => {
-    });    
+    });   
+    
 }
 
 onChange(e) {
     this.setState({file:e.target.files[0]});
 }
 
+// closeModal = () => {
+//     this.props.close()
+// }
+
 render() {
+    console.log(this.props)
     return (
         <form className='modal-form' onSubmit={this.onFormSubmit}>
         <div className='modalbox'>
@@ -45,7 +53,7 @@ render() {
 
         <div className='uploadbox'>
             <input className='uploadbox__browse' type="file" name="myFile" onChange= {this.onChange} />
-            <button className='uploadbox__submit' type="submit" onClick={this.onClose}>UPLOAD</button>
+            <button className='uploadbox__submit' type="submit" >UPLOAD</button>
         </div>
 
         </form>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import bed1 from '../Assets/Images/bedrooms/bedroom-1.jpg';
 import bed2 from '../Assets/Images/bedrooms/bedroom-2.jpg';
 import bed3 from '../Assets/Images/bedrooms/bedroom3.jpg';
@@ -17,16 +18,16 @@ import "./Gallery.scss";
 class Gallery extends React.Component {
   state = {
     galleryItems: [
-      {img:bed1}, 
-      {img:liv1}, 
-      {img:din1}, 
-      {img:bed2}, 
-      {img:liv2}, 
-      {img:din2},
-      {img:bed3},
-      {img:liv3},
-      {img:din3}
-    ].map((i) => (<div className='gallery' key={i}><img className='gallery__item' src={i.img} alt=''/></div>)),
+      {img:bed1, link: '/bedrooms'}, 
+      {img:liv1, link: '/living-rooms'},  
+      {img:din1, link: '/dining-rooms'},  
+      {img:bed2, link: '/bedrooms'},  
+      {img:liv2, link: '/living-rooms'}, 
+      {img:din2, link: '/dining-rooms'}, 
+      {img:bed3, link: '/bedrooms'}, 
+      {img:liv3, link: '/living-rooms'}, 
+      {img:din3, link: '/dining-rooms'}, 
+    ].map((i) => (<Link to={i.link} className='gallery' key={i}><img className='gallery__item' src={i.img} alt=''/></Link>)),
   }
  
   responsive = {

@@ -44,7 +44,7 @@ class HeaderModal extends React.Component {
         // this.subtitle.style.color = '#323232';
       }
     
-      closeModal() {
+      closeModal = () => {
         this.setState({ modalIsOpen: false });
       }
     
@@ -60,7 +60,8 @@ class HeaderModal extends React.Component {
 
       <div>
         <button onClick={this.openModal} ></button>   
-          <Modal
+          <Modal 
+            close={this.closeModal}
             isOpen={this.state.modalIsOpen}
             onAfterOpen={this.afterOpenModal}
             onRequestClose={this.closeModal}
@@ -68,7 +69,7 @@ class HeaderModal extends React.Component {
             contentLabel="Room Request"
           >
               
-        <UploadPreview />
+        <UploadPreview close={this.props.close}/>
 
           </Modal>
         </div>

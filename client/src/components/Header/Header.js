@@ -73,7 +73,7 @@ class Header extends React.Component {
             contentLabel="Room Request"
           >
 
-        <UploadPreview />
+        <UploadPreview close={this.closeModal}/>
 
           </Modal>
         </div>
